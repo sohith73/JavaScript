@@ -1,0 +1,119 @@
+.visuals {
+     position: relative;
+     width: 880px;
+     height: 658px;
+     background-color: #ececeb;
+   }
+   
+   .visuals .overlap-group {
+     position: absolute;
+     width: 453px;
+     height: 415px;
+     top: 169px;
+     left: 368px;
+     border-radius: 8px;
+   }
+   
+   .visuals .group {
+     position: absolute;
+     width: 453px;
+     height: 415px;
+     top: 0;
+     left: 0;
+     background-color: #fdfdfc;
+     border-radius: 8px;
+   }
+   
+   .visuals .image {
+     position: absolute;
+     width: 445px;
+     height: 401px;
+     top: 2px;
+     left: 2px;
+   }
+   
+   .visuals .system-hand-pointing {
+     position: absolute;
+     width: 55px;
+     height: 58px;
+     top: 284px;
+     left: 145px;
+   }
+   
+   .visuals .primary-button {
+     display: inline-flex;
+     height: 40px;
+     align-items: center;
+     justify-content: center;
+     gap: 8px;
+     padding: 12px 20px;
+     position: absolute;
+     top: 174px;
+     left: 89px;
+     background-color: var(--primary-color);
+     border-radius: 8px;
+     transition: all 0.3s ease;
+   }
+   
+   .visuals .label {
+     position: relative;
+     width: fit-content;
+     margin-top: -5px;
+     margin-bottom: -3px;
+     font-family: "Poppins-SemiBold", Helvetica;
+     font-weight: 600;
+     color: var(--white-color);
+     font-size: 14px;
+     text-align: center;
+     letter-spacing: 0;
+     line-height: 24px;
+     white-space: nowrap;
+   }
+   
+   .visuals .icon {
+     position: relative;
+     width: 20px;
+     height: 20px;
+     margin-top: -2px;
+     margin-bottom: -2px;
+   }
+   
+   .visuals .text-wrapper {
+     position: absolute;
+     top: 131px;
+     left: 79px;
+     font-family: "Mulish-Bold", Helvetica;
+     font-weight: 700;
+     color: #000000;
+     font-size: 12.9px;
+     letter-spacing: 0;
+     line-height: 19.4px;
+     white-space: nowrap;
+   }
+   
+   .visuals .div {
+     position: absolute;
+     top: 131px;
+     left: 368px;
+     font-family: "Mulish-Bold", Helvetica;
+     font-weight: 700;
+     color: #000000;
+     font-size: 12.9px;
+     letter-spacing: 0;
+     line-height: 19.4px;
+     white-space: nowrap;
+   }
+   
+   .visuals .text-wrapper-2 {
+     position: absolute;
+     top: 45px;
+     left: 52px;
+     font-family: "Caveat-Regular", Helvetica;
+     font-weight: 400;
+     color: #009379;
+     font-size: 44px;
+     letter-spacing: 0;
+     line-height: 52.8px;
+     white-space: nowrap;
+   }
+   
