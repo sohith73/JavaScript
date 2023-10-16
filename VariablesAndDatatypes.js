@@ -43,3 +43,5 @@ c  = 42; // declare a variable without anything
 //      console.log("Hello world");
 // }
 
+//Stack(primitive) Heap(non primitive )
+
