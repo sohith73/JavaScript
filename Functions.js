@@ -87,7 +87,7 @@ if (true) {
 
 
 function one(){
-    const username = "hitesh"
+    const username = "Sohith"
 
     function two(){
         const website = "youtube"
@@ -102,8 +102,8 @@ function one(){
 // one()
 
 if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
+    const username = "sohith"
+    if (username === "sohith") {
         const website = " youtube"
         // console.log(username + website);
     }
@@ -124,7 +124,9 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5)//hoisting 
 const addTwo = function(num){
     return num + 2
 }
+
+// ---------arrow functions ++++++++++++++++++
