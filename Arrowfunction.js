@@ -36,3 +36,16 @@ console.log(add(19,1));
 const clas = (num,num1) => ({username : "Sohith"});
 console.log(clas(2,3));
 
+
+// ------------ iife ------------
+// Immediately Invoked Function Expressions (IIFE)
+
+
+(function chai(){
+     // named IIFE
+     console.log(`DB CONNECTED`);
+})(); // you also need to end this with ;
+
+( (name) => {
+     console.log(`DB CONNECTED TWO ${name}`);
+} )('BSC');
